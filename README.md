@@ -4,7 +4,7 @@ In this project we built a sentence VAE using the Transformer encoder-decoder ar
 Project created by: [Dan Haramati](https://github.com/DanHrmti) & [Nofit Segal](https://github.com/NofitS)
 
 <h4 align="center">
-    <a href="https://colab.research.google.com/github/DanHrmti/SenTransformer-VAE-pytorch/TransformerVAE.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    <a href="https://colab.research.google.com/github/DanHrmti/SenTransformer-VAE-pytorch"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </h4>
 
 <p align="center">
