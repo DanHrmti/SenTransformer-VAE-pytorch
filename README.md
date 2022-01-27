@@ -92,12 +92,12 @@ You should use the `main.py` file with the following arguments:
 
 **Recommended**:
 
-PTB - `python main.py --dataset PTB --e_dim 512 --nheads 8 --nTElayers 4 --nTDlayers 4 --z_dim 32 --num_epochs 20 --batch_size 32 --optim SGDwM --lr 0.1 --beta_sch anneal --beta_min 0.005 --beta_max 0.04 --beta_warmup 4 --save_interval 5 --seed 41 --device 0`
+PTB - `python main.py --dataset PTB --e_dim 512 --nheads 8 --nTElayers 4 --nTDlayers 4 --z_dim 32 --num_epochs 30 --batch_size 32 --optim SGDwM --lr 0.1 --beta_sch anneal --beta_min 0.005 --beta_max 0.04 --beta_warmup 4 --save_interval 5 --seed 41 --device 0`
 
 Wikitext-2 - `python main.py --dataset WikiText2 --e_dim 512 --nheads 8 --nTElayers 4 --nTDlayers 4 --z_dim 32 --num_epochs 30 --batch_size 32 --optim SGDwM --lr 0.1 --beta_sch anneal --beta_min 0.005 --beta_max 0.04 --beta_warmup 4 --save_interval 5 --seed 41 --device 0`
 
 **Notes**:
-* Optimizers use a step scheduler for the learning rate, `milestones` need to be written directly to `TransformerVAE.py` depending on `num_epochs` chosen.
+* Optimizers use a step scheduler for the learning rate, `milestones` need to be written directly to `TransformerVAE.py` depending on `num_epochs` chosen (for `num_epochs=30` we set `milestones=[20, ]`).
 * During training:
     * model checkpoints and figures of loss curves are saved locally.
     * train statistics are printed 5 times each epoch (reconstruction loss, KL loss, beta-VAE loss and more).
@@ -107,7 +107,7 @@ Wikitext-2 - `python main.py --dataset WikiText2 --e_dim 512 --nheads 8 --nTElay
 
 |Dataset                 | `beta_sch` | \[`beta_min`,`beta_max`\] | `beta_warmup` | `optim` | `lr` | `z_dim` | `batch_size` | `num_epochs` |
 |------------------------|------------|---------------------------|---------------|---------|------|---------|--------------|--------------|
-|Penn Treebank (`PTB`)   |'anneal'    |\[0.005, 0.04\]            |4              |'SGDwM'  |0.1   |32       |32            |20            |
+|Penn Treebank (`PTB`)   |'anneal'    |\[0.005, 0.04\]            |4              |'SGDwM'  |0.1   |32       |32            |30            |
 |WikiText-2 (`WikiText2`)|'anneal'    |\[0.005, 0.04\]            |4              |'SGDwM'  |0.1   |32       |32            |30            |
 
 **Notes**:
