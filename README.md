@@ -6,14 +6,14 @@ In this project we built a sentence VAE using the Transformer encoder-decoder ar
 </h4>
 
 <p align="center">
-  <img src="figs/model_scheme.png" width="350">
+  <img src="figs/model_scheme.png" width="900">
 </p>
 
 We convert individual word hidden states outputted by the transformer encoder to a sentence-level representation by simply taking the hidden state of the \<sos\> token. <br>
 The latent space representation, z, is converted to the "memory" input of the decoder using a fully connected layer.
 
 <p align="center">
-  <img src="figs/model_scheme.png" width="350">
+  <img src="figs/Transformer_based_VAE.png" width="700">
 </p>
 
 [SenTransformer-VAE-pytorch](#sentransformer-vae-pytorch)
