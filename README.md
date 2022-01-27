@@ -192,5 +192,3 @@ We performed interpolation between two sentences in the latent space by decoding
 * [Bowman, Samuel R., et al. "Generating sentences from a continuous space."](https://arxiv.org/pdf/1511.06349.pdf)
 * [Vaswani, Ashish, et al. "Attention is all you need."](https://arxiv.org/pdf/1706.03762.pdf)
 * [Fu, Hao, et al. "Cyclical annealing schedule: A simple approach to mitigating kl vanishing."](https://aclanthology.org/N19-1021.pdf)
-* Marcus, Mitchell, Beatrice Santorini, and Mary Ann Marcinkiewicz. "Building a large, annotated corpus of English: The Penn Treebank." (1993).
-* Merity, Stephen, et al. "Pointer sentinel mixture models."
