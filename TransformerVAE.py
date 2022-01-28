@@ -1,5 +1,5 @@
 """
-Transformer VAE for sentence generationti
+Sentence Transformer-VAE
 Authors: Dan Haramati, Nofit Segal
 """
 
