@@ -1,7 +1,7 @@
 # SenTransformer-VAE-pytorch
 In this project we built a sentence VAE using the Transformer encoder-decoder architecture presented in ["Attention Is All You Need" by Vaswani, Ashish, et al.](https://arxiv.org/pdf/1706.03762.pdf) <br>
 
-Project created by: [Dan Haramati](https://github.com/DanHrmti) & [Nofit Segal](https://github.com/NofitS)
+Project created by: [Dan Haramati](https://github.com/DanHrmti) & [Nofit Segal](https://github.com/nofitsegal)
 
 <h4 align="center">
     <a href="https://colab.research.google.com/github/DanHrmti/SenTransformer-VAE-pytorch"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
